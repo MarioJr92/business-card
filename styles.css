@@ -1,0 +1,50 @@
+body {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avatar {
+    border: 3px solid #bc6c25;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    text-align: center;
+    background: #606c38;
+    color: #fefae0;
+    border-bottom: 8px solid #bc6c25;
+    border-top: 8px solid #bc6c25;
+    text-shadow: 1px 1px 1px #bc6c25;
+}
+
+h3:hover,
+h4:hover,
+p:hover {
+    text-decoration: underline;
+}
+
+.move {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 15%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
