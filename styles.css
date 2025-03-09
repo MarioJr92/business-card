@@ -22,6 +22,7 @@ body {
     border-bottom: 8px solid #bc6c25;
     border-top: 8px solid #bc6c25;
     text-shadow: 1px 1px 1px #bc6c25;
+    letter-spacing: 2px;
 }
 
 h3:hover,
